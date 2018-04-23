@@ -37,6 +37,7 @@ The client-server model is the relationship between computers in which one compu
 * You will need professionals to maintain the servers and other technical details of the network.
 ##### Commercial Oppurtinity
 These types of networks are usually used for web browsers as they use multiple servers to hold the ip addresses of websites so that they can provide clients with the right ip address.
+
 #### Cloud
 ##### Purpose
 
@@ -47,6 +48,7 @@ These types of networks are usually used for web browsers as they use multiple s
 ##### Commercial Oppurtinity
 ##### Information Sharing
 ##### Collaboration
+
 #### Cluster
 ##### Purpose
 ##### Benefits
@@ -65,6 +67,7 @@ These types of networks are usually used for web browsers as they use multiple s
 ##### Commercial Oppurtinity
 ##### Information Sharing
 ##### Collaboration
+
 #### Virtualised
 ##### Purpose
 ##### Benefits
@@ -74,6 +77,7 @@ These types of networks are usually used for web browsers as they use multiple s
 ##### Commercial Oppurtinity
 ##### Information Sharing
 ##### Collaboration
+
 ### Conceptual Models (OSI and TCP/IP)
 ### Physical Cabling
 ### Data Transmission
@@ -121,3 +125,14 @@ The computer with the token can communicate, benefit: no collisions when transmi
 #### Combination
 #### Virtualisation
 #### Terminal Services
+
+## The Interdepedence of Workstation Hardware with Networking Software
+### Networking Software
+#### Client Software
+#### Server Software
+#### Client Operating system
+#### Server Operating System
+#### Firewall
+#### Proxies
+### Differences between network card, wireless, mobile and cabling
+### The need for permissions in networking
