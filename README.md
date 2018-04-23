@@ -79,3 +79,45 @@ These types of networks are usually used for web browsers as they use multiple s
 ### Data Transmission
 ### Routed Protocols
 ### Services and Network
+
+
+## The Impact of Networking Topology, Communication and Bandwidth
+### Logical Topology
+#### Ethernet
+#### Token Ring
+The computer with the token can communicate, benefit: no collisions when transmitting data
+### Physical Topology
+#### Star
+#### Ring
+#### Bus
+#### Mesh
+#### Tree
+#### Ring
+### Communication
+### Bandwidth
+
+
+## Operating Principles
+### Networking Devices
+#### Hubs
+#### Routers
+#### Switches
+#### Multilayer Switch
+#### Firewall
+#### HIDS
+#### Repeaters
+#### Bridges
+#### Wireless Devices
+#### Access Points (Wireless/ Wired)
+#### Content Filter
+#### Load Balancer
+#### Modem
+#### Packet Shaper
+#### VPN Concentrator
+### Server Types
+#### Web
+#### File
+#### Database
+#### Combination
+#### Virtualisation
+#### Terminal Services
