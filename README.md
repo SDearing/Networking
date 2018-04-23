@@ -40,8 +40,10 @@ These types of networks are usually used for web browsers as they use multiple s
 
 #### Cloud
 ##### Purpose
-
+A cloud network allows a user to access data and programs over the internet instead of using the computers hard drive. The purpose of this network is to allow multiple users to access the same software and data, and therefore work together on the same documents and allow the storage of data that all users can access.
 ##### Benefits
+* Using a cloud network saves money, as you don't need to invest money in storage hardware as all data and software is stored in the cloud
+* A cloud network is also more reliable than 
 ##### Resource Implications
 ##### Communication
 ##### Working Practise
@@ -87,6 +89,7 @@ These types of networks are usually used for web browsers as they use multiple s
 
 ## The Impact of Networking Topology, Communication and Bandwidth
 ### Logical Topology
+A logical topology describes how systems on a network 
 #### Ethernet
 #### Token Ring
 The computer with the token can communicate, benefit: no collisions when transmitting data
