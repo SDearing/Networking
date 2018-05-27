@@ -131,8 +131,21 @@ Router IP Address:
 * 192.168.10.1
 ### Concept Design
 Below is the concept design for my network, this is so I could plan out the whole network before I implemented it. This is so I could obtain user feedback and therefore evaluate my network before I start implementing it.
+
+![Design](https://github.com/SDearing/Networking/blob/master/NetworkDesign.PNG)
+
+As you can see, from the design, I have designed 2 LAN networks. Both LAN networks contain 3 PC systems, 1 server, 1 switch and 1 router. The aspect that seperates the two LAN networks is that the LAN 1 has access to a printer and LAN 2 has access to a wireless access point. All these systems have been put into the design to fufill all the specifications stated at the beginning of this section. This design also fufills the specification as all systems on each LAN are connected to a central switch, which makes the topology of both LANs a star topology. Also this design fufills the specification as both LANs are connected via their routers to create a one WAN.
 ### User Feedback
+To fully evaluate my design I asked multiple to peers to give their opinions on my design, this is so I could be fully sure that my design fufilled all the specifications before I moved onto implementation. Below is what they said:
+##### Dan
+"I think this design is fine, it seems to complete all the specifications, so I think its ready to be implemented. , I also like the naming format you used for each system" 
+
+##### Luke
+"I think the design is okay, however I would suggest changing the wiring between the routers as it makes the design look like it's just one LAN and to connect two LANs you need to use a Serial wiring"
+
+Dan seemed to think my design was ready for implementation as it fufilled all the requirements and even complimented my naming format for the systems (i.e. PC 1-2). However Luke liked the design, but suggested that the connection between the two routers should represent a Serial wiring as it makes it look like my network is just one large LAN. I have taken this feedback into consideration and will add the Serial wiring when I fully implement my network.
 ### Evaluation of Design
+From user feedback I would suggest that my design is ready to be implemented as a fully working system. This is because from all the user feedback I obtained they all said that it fufilled all the specifications of the task. Another strength of my design is the naming format I used for every system, this is because if I name a system from my design it tells you which LAN it is on and what the system is (for example PC 2-1 tells you its the first PC on LAN 2). However a weakness of my design is that the wiring is not fully complete on my design as the wiring between the two routers should be Serial wiring, so I should of changed the wire symbol connecting the routers to represent this.
 ### Implemented Network
 ### Testing the Network
 ### Evaluation of Implemented Network
