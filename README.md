@@ -139,3 +139,12 @@ The computer with the token can communicate, benefit: no collisions when transmi
 #### Proxies
 ### Differences between network card, wireless, mobile and cabling
 ### The need for permissions in networking
+
+## Design and Implement a Network
+### Network Specification
+### Concept Diagram
+### User Feedback
+### Evaluation of Design
+### Implemented Network
+### Testing the Network
+### Evaluation of Implemented Network
