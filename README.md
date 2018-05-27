@@ -3,75 +3,51 @@
 ### The Different Types of Networks
 There are different ways that computers can be connected over a network, this is called the type of network, the systems that require information are called clients and the systems that provide information are called servers and the type of network dictates how these systems communicate with each other.
 #### Peer to peer
-##### Purpose
 The first type of network is called a peer to peer network, this network has no single system that provides the role of the server, instead each computer on the network stores files and acts as the server. This means that each computer has equal responsibility for providng data. The purpose of a peer to peer to network is to allow computers to transfer files between eachother without the need of a server to control the data flow.
-##### Benefits
-* Easy to set up and configure new systems
-* All resources and contents are shared by all the computers on the network
-* Very reliable, as there is no dependency on a certain system to work, meaning that if one system goes down the network can still continue to function.
-* The overall cost to set up and maintain the network is considerably less that other network types
-##### Constraints
-* The whole system is decentralized, therefore it is difficult to administer, meaning that one person cannot determine the whole accessibility of the whole network
-* Less security, meaning that viruses, spywares, tojans, etc can easily be transmitted throughout the network, infecting all the peers on the network
-* Data recovery or backup is difficult as each system controls its own data, meaning each computer on the network will need its own backup
-##### Resource Implications
-Compared to other network types a peer to peer network does not require many resources, they only need at least 2 computers with an internet connection.
-##### Commercial Oppurtinity
-As peer to peer networks are relitively cheap to set up, this could be a useful type of network for small busineses with a small amount of systems to manage. 
-##### Information Sharing
-Information on the network is transferred through the each peer system on the network and requires no server to manage the data transmission.
-##### Collaboration
-As peer to peer networks are used for file sharing, you cannot use a peer to peer network to collaborate on the same documents or work together on the same projects. However the use of file sharing helps project groups share work between eachother and share the same software allowing all users on the network to have the same resources.
+
+A benefit of peer to peer networks is that it is easy to set up as it requires, at minimum, only two systems and configuring new systems on the network is easy to do, as all systems on the network have the same permissions. Another benefit of peer to peer networks is that all resources and contents are shared by all the systems on the network. Additionally, this type of network is very reliable as there is no dependencies on a certain system to work, which means if one system on the network crashes it will not affect the integrity of the network and will function normally. The final benefit of a peer to peer network is that the overall cost to set up and maintain the network is relatively less than other networks.
+
+However a contraint of peer to peer networks are the whole network is decentralized, therefore it is difficult to administer, this means that one person cannot determine the whole accessibility of the network. Another weakness, is that a peer to peer network has less security than other types of networks, meaning that malicious software such as spware, can easily be transmitted throughout the network infecting any other system on the network. A final constraint is that data recovery or backup is difficult as each system controls its own data, meaning each computer on the network will need to administer its own back up. 
+
+Information on a peer to peer network is transferred through each peer system on the network and requires no server to manage the data transmission. Also as peer to peer networks are used for file sharing, you cannot use a peer to peer network to collaborate on the same documents or work together on the same projects. However the use of file sharing helps project groups share individual work between eachother and also software can be shared allowing all users on the network to have the same resources
 #### Client-Server
-##### Purpose
 The client-server model is the relationship between computers in which one computer acts as the server, in which the other computers makes service requests to. The clients are dependent on the server to provide and manage information. The purpose of this network is to hold all data of the network in one centralized location and to deal with multiple clients at once.
-##### Benefits
-* It is easy to manage, this is because all files are stored at the same place allowing files to be easily found.
-* It is easier to backup and recover files, this is because, all the data is stored on the server which makes it easy to make a back up of it. Also in the case of a break down if data is lost, it can be recovered effeciently.
-* Upgrades to the network can be easily made, as you would only have to make changes to the server.
-* The security of the network has the possibility of being high, as you only have to have security for the server
-##### Constraints
-* Too many requests from clients could lead to congestion, which would dramatically slow down the network and could lead to the break down of the server.
-* This type of network is also very dependent on the server, meaning if the server fails then the whole network will fail
-* It is very expensive to install and manage the server on the network
-* You will need professionals to maintain the servers and other technical details of the network.
-##### Commercial Oppurtinity
-These types of networks are usually used for web browsers as they use multiple servers to hold the ip addresses of websites so that they can provide clients with the right ip address.
+
+A benefit of client-server networks is that it easy to manage, this is because all files are stored at the same place allowing files to be easily found. Another benefit the this type of network, is that it is easy to back up and recover files, this is because all the data is stored on the server which makes it easy to make a back up of it. Also in the case of a break down if data is lost, it can be recovered from the server effeciently. Another benefit is that upgrades to the network can be easily made, as you would only need to upgrade the server system. The final benefit of client-server networks is that the security of the network can be easily implemented as you only need to apply security to the server.
+
+A constraint of client-server networks is that too many requests to from clients to the server could lead to congestion, which would dramatically slow down the network and could lead to the break down of the server. Another weakness of the server is that this type of network is also very dependent on one system, the server, meaning if the server fails then the whole network will fail. Another constraint of this type of server is that it is very expensive to install and manage the server on the networkl. Finally, this type of network will need professionals to maintain the servers and other technical details of the network.
 
 #### Cloud
-##### Purpose
 A cloud network allows a user to access data and programs over the internet instead of using the computers hard drive. The purpose of this network is to allow multiple users to access the same software and data, and therefore work together on the same documents and allow the storage of data that all users can access.
-##### Benefits
-* Using a cloud network saves money, as you don't need to invest money in storage hardware as all data and software is stored in the cloud
-* A cloud network is also more reliable than 
-##### Resource Implications
-##### Communication
-##### Working Practise
-##### Commercial Oppurtinity
-##### Information Sharing
-##### Collaboration
+
+A benefit of using a cloud network, is that it saves money, as you don't need to invest money in storage hardware as all data and software is stored in the cloud. Another benefit of using a cloud network is that it is more reliable than using storage hardware, as a cloud network is designed to automatically save data on the network so if user's system crashes, the data will still be intact.
+
+However a constraint of using a cloud network is that if a cloud network fails it will affect a huge amount of users, meaning they will not be able to access their data from the network, therefore the cloud network is very dependent on the systems holding the cloud. Another weakness of the network is that, because it is accessed via the internet, a cloud network is very vulnerable to hackers as anyone can potentially access the network. Finally another contraint is that the maintanence and setting up of a cloud network is very expensive as the network has to be powerful enough to handle thousands of users accesesing it at the same time.
+
 
 #### Cluster
-##### Purpose
-##### Benefits
-##### Resource Implications
-##### Communication
-##### Working Practise
-##### Commercial Oppurtinity
-##### Information Sharing
-##### Collaboration
-#### Centralised
-##### Purpose
-##### Benefits
-##### Resource Implications
-##### Communication
-##### Working Practise
-##### Commercial Oppurtinity
-##### Information Sharing
-##### Collaboration
+A cluster network is a group of computers that work together so that they can be viewed as a single system. In a cluster network all computers are given the same tasks, which are controlled and regulated by software which would be the single system being viewed. THe purpose of this is that the network can be used for tasks which would require a high amount of processing power.
+
+A benefit of cluster networks is that it is very robust, this is because even if one system fails in the cluster, the cluster will continue to function as normal, with the only drawback being a lower processing power. Another benefit of a cluster network is that configuring new systems to the cluster is very easy to do.
+
+However a constraint of cluster networks is that the network is not protected from shared storage failures, meaning if the clusters storage fails there will be no way to safe the data unless a back up was made in advance. Another weakness of the network is that the whole cluster will usually be in one location, so if any incidents occur in that building (such as a fire) the whole network would be at risk of being damaged, costing the owner a huge amount of money.
+
+
+#### Centralized
+Centralized networks are when all systems are connected to a central server, which handles all storage and communcations of the network. This means that the central server is responsible for the integrity of the server and controls every aspect of the server. Most clients connected to the centralized server are usually limited in processing power, with only the processing power to connect to the centralized server, this is because the centralized server controls all processes on the network and therefore completes tasks for the client systems.
+
+A benefit of a centralized network is that new client systems are very easy to add to the network as they only need to be able to connect to the centralized server. Also another benefit of a centralized network is that buying new client systems for the network would be very cheap as they require only a small amount of processing power, meaning they would not need to have very sophisticaced hardware. 
+
+However a constraint of a centralized network is that the whole network is dependent on the centralized server, meaning if the server crashed then all systems connected would fail until the centralized server was fixed. Another constraint of a centralized server is that the central server will require a large amount of data storage and processing power, therefore being very expensive for the network owner to set up.
 
 #### Virtualised
+A virtualised network is a network that combines all available resources in a network, by splitting up the available bandwidth into channels. These channels are independent from each other and can be assigned or switched between different systems on the network. The assigning of channels is dependent on which systems require the most bandwidth at a given time. The purpose of virtualisation is to remove the need of hardware from the network.
+
+A benefit of a virtualised network is that there is less of a demand for lots of different technical skills, this is because with the hardware eliminated from virtualisation, the need to have workers trained in the different brands and models of hardware is also eliminated. This means that the overall maintanence of the network would be lower than a physical network. Another benifet of virtualised networks is that they have improved recovery times after a hardware failure.
+
+However a drawback of virtualised networks is that the upfront cost of setting up a virtualised network is very high, which some organisations may not be able to afford. Another constraint of virtualised networks is that they will require IT staff with an expertise in virtualisation, which could mean an organisation would need to hire new workers to account for the virtualisation costing them more money.
 ##### Purpose
+
 ##### Benefits
 ##### Resource Implications
 ##### Communication
@@ -84,7 +60,7 @@ A cloud network allows a user to access data and programs over the internet inst
 ### Physical Cabling
 ### Data Transmission
 ### Routed Protocols
-### Services and Network
+### Services and Network Applications
 
 
 ## The Impact of Networking Topology, Communication and Bandwidth
