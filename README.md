@@ -49,8 +49,7 @@ However a drawback of virtualised networks is that the upfront cost of setting u
 
 
 ### Conceptual Models (OSI and TCP/IP)
-### Physical Cabling
-### Data Transmission
+### Standards and Protocols
 ### Routed Protocols
 ### Services and Network Applications
 
