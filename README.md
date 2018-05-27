@@ -46,15 +46,7 @@ A virtualised network is a network that combines all available resources in a ne
 A benefit of a virtualised network is that there is less of a demand for lots of different technical skills, this is because with the hardware eliminated from virtualisation, the need to have workers trained in the different brands and models of hardware is also eliminated. This means that the overall maintanence of the network would be lower than a physical network. Another benifet of virtualised networks is that they have improved recovery times after a hardware failure.
 
 However a drawback of virtualised networks is that the upfront cost of setting up a virtualised network is very high, which some organisations may not be able to afford. Another constraint of virtualised networks is that they will require IT staff with an expertise in virtualisation, which could mean an organisation would need to hire new workers to account for the virtualisation costing them more money.
-##### Purpose
 
-##### Benefits
-##### Resource Implications
-##### Communication
-##### Working Practise
-##### Commercial Oppurtinity
-##### Information Sharing
-##### Collaboration
 
 ### Conceptual Models (OSI and TCP/IP)
 ### Physical Cabling
@@ -118,7 +110,28 @@ The computer with the token can communicate, benefit: no collisions when transmi
 
 ## Design and Implement a Network
 ### Network Specification
+The task I have been given is to design a fully working network. I was given very specific guidelines of how to create this network, the first specification was that the network had to consist of two LANs (Local Area Network) that were connected together by two routers. The next specifcation was that both LANs had to have the structure of a star topology meaning that they all systems had to be connected to a central switch. The next specification was that each LAN had to comprise of three computer systems, one server and one switch (mentioned before), additionally on the WAN there had to be one printer and one wireless access point. As a final specification I was also given the required IP addresses of all the systems on the network which are listed below:
+
+#### LAN 1 IP Addresses
+Computer Systems:
+* 192.168.1.100
+* 192.168.1.101
+* 192.168.1.102
+Server:
+* 192.168.1.10
+Router:
+* 192.168.1.1
+#### LAN 2 IP Addresses
+Computer Systems:
+* 192.168.10.100
+* 192.168.10.101
+* 192.168.10.102
+Server IP Address:
+* 192.168.10.10
+Router IP Address:
+* 192.168.10.1
 ### Concept Design
+Below is the concept design for my network, this is so I could plan out the whole network before I implemented it. This is so I could obtain user feedback and therefore evaluate my network before I start implementing it.
 ### User Feedback
 ### Evaluation of Design
 ### Implemented Network
