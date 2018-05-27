@@ -142,7 +142,7 @@ The computer with the token can communicate, benefit: no collisions when transmi
 
 ## Design and Implement a Network
 ### Network Specification
-### Concept Diagram
+### Concept Design
 ### User Feedback
 ### Evaluation of Design
 ### Implemented Network
