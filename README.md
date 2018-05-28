@@ -109,7 +109,7 @@ The computer with the token can communicate, benefit: no collisions when transmi
 
 ## Design and Implement a Network
 ### Network Specification
-The task I have been given is to design a fully working network. I was given very specific guidelines of how to create this network, the first specification was that the network had to consist of two LANs (Local Area Network) that were connected together by two routers. The next specifcation was that both LANs had to have the structure of a star topology meaning that they all systems had to be connected to a central switch. The next specification was that each LAN had to comprise of three computer systems, one server and one switch (mentioned before), additionally on the WAN there had to be one printer and one wireless access point. As a final specification I was also given the required IP addresses of all the systems on the network which are listed below:
+The task I have been given is to design a fully working network. I was given very specific guidelines of how to create this network, the first specification was that the network had to consist of two LANs (Local Area Network) that were connected together by two routers. The next specifcation was that both LANs had to have the structure of a star topology meaning that they all systems had to be connected to a central switch. The next specification was that each LAN had to comprise of three computer systems, one server and one switch (mentioned before), additionally on the WAN (Wide Area Network) there had to be one printer and one wireless access point. As a final specification I was also given the required IP addresses of all the systems on the network which are listed below:
 
 #### LAN 1 IP Addresses
 Computer Systems:
