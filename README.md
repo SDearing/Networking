@@ -49,11 +49,42 @@ However a drawback of virtualised networks is that the upfront cost of setting u
 
 
 ### Conceptual Models (OSI and TCP/IP)
+These conceptual models are the rules that data must follow for it to be transmitted across the internet. Below are the run down for the protocols involved for TCP/IP and OSI models.
+#### TCP/IP
+TCP/IP stands for transmission control protocol/internet protocol, it follows 4 different layers that data is put through when it is being transmitted across the internet.
+* Application: This layer controls the way data is represented when sent to the recipient of the data. It does this by specifying the protocols of application.
+* Transport: This layer is responsible for maintaining the transmission of data across the internet. The two main protocols that control this layer are TCP and UDP. TCP is considered the more reliable protocol for transmission as it checks if the data has been recieved by the reciever, whereas UDP does not check to see if the data has been transmitted safely, however UDP is considered a quicker protocol for the same reason it is unrealiable.
+* Internet: This layer constructs the packet of data. This layer is handled by the internet protocol (IP), this protocol dictates that a data packet must have the senders IP address, the recievers IP address and the actual data.
+* Network Access: This layer describes how the data will be physically sent through the network, this means the way the sender's network is able to connect to the internet, this is usually by ethernet cabling.
+#### OSI
+The OSI model stands for Open Systems Interconnection and divides communication into seven layers. Layers 1-4 deal with the movement of data, while layers 5-7 control how the data is applied.
+* Layer 7 Application: Similar to the TCP/IP model this layer deals with how the data is applied to receiver by selecting the application protocol.
+* Layer 6 Presentation: This layer controls how the data is presented by translating the data into a format the application layer can work with. This layer also encrypts data so it can be sent through a network.
+* Layer 5 Session: This layer establishes, manages and terminates the connection between the communicating systems. 
+* Layer 4 Transport: This layer handles the transmission of data between the two communicating systems and is responsible for ensuring the data was sent completely.
+* Layer 3 Network: This layer handles how the data gets to its destination. It does this by calculating the logical path between nodes on a network so that the data can travel to the destination in the most effecient way.
+* Layer 2 Data Link: This layer handles hows the computer on a network gains access to the data and how the permissions the computer needs to follow to send it. The other purpose of this layer also handles checking for any errors in the data.
+* Layer 1 Physical: Like TCP/IP the lowest layer handles how the data is sent through the network physically, which involves using the hardware associated with the senders network.
 ### Standards and Protocols
+#### IEEE Standards
+IEEE standards are the physical cabling used in data transmission on the physical layer. There are different types of IEEE standards that are used for different connections depending on the distance data has to travel.
+* IEEE 802.3: This is the standard of ethernet cables. This type of cable is mostly used to connect systems on a Local Area Network. 802.3 specifies the characteristics of Ethernet.
+* IEEE 802.7: This is the standard which covers broadband Local Area Networks. It specifies the design, installation and test parameters for broadband cables.
+* IEEE 802.8: This is the standard which covers fiber optic cables, like the previous standards it specifies the design, installation and test parameters for fiber optic cables.
+* IEEE 802.11: This is the standard which covers wireless connections, this standard outlines which frequencies are to be used by different wireless connections such as Wi-fi.
 ### Routed Protocols
+Routed protocols are the rules that data must follow so it can be transmitted across networks. The most common routed protocol is IP and handles the address of systems on a network. Throughout the history of the internet IP has taken many different forms, first IP was in the form of IPV4 which was developed in the 1980s and is probably the most known version of IP (e.g. 192.89.2.1), however IPV4 could only be used by a maximum of 3.7 billion systems, at the time the creators thought that was more than enough for the world but as the amount of systems connected to the internet increased there needed to be a version of IP that would allow the use of more addresses. So, IPV4 was then developed into IPV6 which uses a 128-bit address space. This version of IP allows the use of 340 undecillion addresses, so its safe to say that we will not need another version of IP for awhile.
 ### Services and Network Applications
-
-
+#### HTTP
+HTTP stands for Hyper Text Transfer protocol, and is used to send data about webpages. HTTP is sent from a web server and involves the data needed for your computer system to re-create the desired webpage.
+#### FTP
+FTP stands for File Transfer Protocol. As the name suggests it is the protocol for sending and recieving files between a server and a client on a network. 
+#### SSL
+SSL stands for Secure Sockets Layer. This protocol ensures that data is sent in a secure matter by encrypting the data so it cannot be intercepted and stolen. This protocol is mostly used for sensitive data like credit card details.
+#### SMTP
+SMTP stands for Simple Mail Transfer Protocol. This protocol is used for sending and receiving emails and is used by most e-mailing services like Gmail.
+#### POP3
+POP3 stands for Post Office Protocol 3. This protocol is a client/server protocol which is used for sending emails on a network and holds the email that is being sent to he reciever while they are not logged into their email account and when you log into the account the emails are downloaded from that server.
 ## The Impact of Networking Topology, Communication and Bandwidth
 ### Logical Topology
 A logical topology describes how systems on a network 
