@@ -116,8 +116,10 @@ Computer Systems:
 * 192.168.1.100
 * 192.168.1.101
 * 192.168.1.102
+
 Server:
 * 192.168.1.10
+
 Router:
 * 192.168.1.1
 #### LAN 2 IP Addresses
@@ -125,9 +127,11 @@ Computer Systems:
 * 192.168.10.100
 * 192.168.10.101
 * 192.168.10.102
-Server IP Address:
+
+Server:
 * 192.168.10.10
-Router IP Address:
+
+Router:
 * 192.168.10.1
 ### Concept Design
 Below is the concept design for my network, this is so I could plan out the whole network before I implemented it. This is so I could obtain user feedback and therefore evaluate my network before I start implementing it.
@@ -149,6 +153,10 @@ From user feedback I would suggest that my design is ready to be implemented as 
 ### Implemented Network
 ![ImplementedNetwork](https://github.com/SDearing/Networking/blob/master/ImplementedNetwork.PNG)
 
-
 ### Testing the Network
+Below is the test plan for my network, involved in the test plan is the outline of the test, expected and actual outcomes, and action needed to be taken after testing.
+
+![Testplan](https://github.com/SDearing/Networking/blob/master/NetworkTestPlan.PNG)
+
+
 ### Evaluation of Implemented Network
