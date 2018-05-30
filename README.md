@@ -87,17 +87,23 @@ SMTP stands for Simple Mail Transfer Protocol. This protocol is used for sending
 POP3 stands for Post Office Protocol 3. This protocol is a client/server protocol which is used for sending emails on a network and holds the email that is being sent to he reciever while they are not logged into their email account and when you log into the account the emails are downloaded from that server.
 ## The Impact of Networking Topology, Communication and Bandwidth
 ### Logical Topology
-A logical topology describes how systems on a network 
+A logical topology describes how data flows through a network, and how systems on a network communicate with eachother.
 #### Ethernet
+Ethernet is a logical topology of how systems communicate on a network, ethernet contains protocols that avoids data being simultaneously transmitted by two or more systems, this makes sure there is no congestion or collisions on the network, assuring that data is sent to a system on the network work effeciently and reliably.
 #### Token Ring
-The computer with the token can communicate, benefit: no collisions when transmitting data
+Token Ring is another type of logical topology that governs data flow in a network. It does this by using a protocol that sends one or more 'tokens' to seperate systems in the network. Systems with the 'token' are the only systems on the network that are allowed to transmit out data. This topology assures that there will be no collisions in the network ensuring the integrity of data transmission in the network.
 ### Physical Topology
+Physical topologies describe the actual layout of a network. Physical topologies govern where the hardware is placed in the network and what other systems they are connected to.
 #### Star
+A star topology focuses on having a central switch, in which all systems are connected to. The systems on the network are only connected to the switch meaning that all data that is transmitted in the network must go through the switch first before it can reach other systems. A benefit of this topology is that data transmission is controlled by the switch, so there is less of a chance of data collisions in the network. However a constraint of this topology is that the network is heavily reliant on the switch, so if the switch fails the whole network will crash, untill the switch is brought back online.
 #### Ring
+A ring topology is a network where all systems are connected to 2 other systems, this forms a ring-like formation. This means that data sent from one computer system has to go through every computer system untill it reaches the desired location on the network. A benefit of this topology is that it is reliable, this is because if one system fails or a connection is severed, the network can adapt and send data in the other direction of the ring. However a drawback of this topology is that it isn't an efficient topology, this is because if a computer wants to send data to a workstation on the network, the data will have to be sent through each workstation which slows down the data flow.
 #### Bus
+A bus topology is a network where all workstations are connected to the same central cable or the 'bus'. This means that all data sent through the network is carried by the central cable to the desired destination. On each end of the central cable is a terminator that stops data signals being reflected back into the 'bus'. A benefit of a bus topology is that it is cheap and easy to set up, this is because the intial set-up of a bus topology does not require much cabling. However, a constraint of this topology is that the network is very dependent on the central cable, so if the central cable was damaged the whole network would be damaged.
 #### Mesh
+A mesh topology is a network where all systems on the network are connected with each system on the network, allowing transmissions to be distributed, even if one connection goes down. This topology is also usually used for wireless networks. A benefit of this topology is that the network can handle the transmission of a high amounts of data, as multiple systems can be send data throughout the network simultaneously. A Disadvantage of this topology is that it is much more expensive to set up than other topologies, making it a less desirable topology.
 #### Tree
-#### Ring
+A tree topology combines the characteristics of star and bus topologies, this means that the tree topology consists of groups of star formated workstations which are all connected to a central cable. A benefit of this topology is that it easy to expand, as all that needs to be done is add a new star formatted network to the central wire. However, like the bus topology, the network is reliant on the central cable as it is the only connection between the groups of work stations.
 ### Communication
 ### Bandwidth
 
