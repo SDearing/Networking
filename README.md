@@ -104,35 +104,52 @@ A bus topology is a network where all workstations are connected to the same cen
 A mesh topology is a network where all systems on the network are connected with each system on the network, allowing transmissions to be distributed, even if one connection goes down. This topology is also usually used for wireless networks. A benefit of this topology is that the network can handle the transmission of a high amounts of data, as multiple systems can be send data throughout the network simultaneously. A Disadvantage of this topology is that it is much more expensive to set up than other topologies, making it a less desirable topology.
 #### Tree
 A tree topology combines the characteristics of star and bus topologies, this means that the tree topology consists of groups of star formated workstations which are all connected to a central cable. A benefit of this topology is that it easy to expand, as all that needs to be done is add a new star formatted network to the central wire. However, like the bus topology, the network is reliant on the central cable as it is the only connection between the groups of work stations.
-### Communication
-### Bandwidth
 
 
 ## Operating Principles
 ### Networking Devices
 #### Hubs
+A hub is a networking device that connects multiple computers or other systems together. The hub contains multiple ports of which systems can connect to. When the hub receives data it transmits it to all other systems connected to the hub as it contains no intelligence of where to send data exactly.
 #### Routers
+Routers are devices that transmits data to other networks. A router is connected to at least two networks, most commonly two LANs, and  and acts as the gateway for the networks, receiving and sending data out of the network. Any data packets recieved by the router will contain an IP address for the destination system so the router knows where to send the data on its network.
 #### Switches
+Switches, like hubs, are used to connect systems on a network. However a switch uses the method of packet switching to process data and transmit data to a specified system. Packet switching is where data is broken down and then sent independently to each destination system, the broken down data is then reassembled at the destination.
 #### Multilayer Switch
+A multilayer switch is a sophisticated piece of hardware that provides the role of a switch, controlling the transmition of data and connecting systems together. However a multilayer switch also provides the role of a router allowing it to transmit data throughout multiple networks.
 #### Firewall
+A firewall is a system which is designed to prevent unauthorized users from accessing a private network. A firewall can either be software or hardware and prevents external internet users from breaking into a network which is connected to the internet.
 #### HIDS
+HIDS stands for Host-based Intrusion Detection System, which is a device that monitors and analyses computer systems on a network aswell as the network packets sent through the network. The role of a HIDS is to make sure that computer systems on a network only contain software that only does what it's expected to do. 
 #### Repeaters
+Repeaters are a network device that are used to restore damaged data transmitted on a network. The role of a repeater is to regenerate data while it is travelling a large distance to a another network, as the further a data packet travels the higher the chance of data loss, so a repeater makes it possible to send data over a distance.
 #### Bridges
-#### Wireless Devices
+A bridge is a device that is used to connect networks that use the same communication protocols. The bridge does this by using an internal database to determine the traffic that is allowed through each network.
+### Wireless Devices
 #### Access Points (Wireless/ Wired)
+A access point is a device that can be implemented into a network that allows the use of Wi-Fi on the network. The access point can either be wireless or wired, a wireless access point will allow the use of Wi-Fi in the general area the access point is located. Where as, a wired access point will only allow Wi-Fi to systems connected to it, usually by an ethernet cable. Some access points will allow the systems to connect up to Wi-Fi using both a wireless or wired connection.
 #### Content Filter
+A content filter is a device that is used by a firewall to control what data is not allowed access through it. The content filter decides this by analysing the source and destination addresses of the data packet.
 #### Load Balancer
+A load balancer is a device that distributes the data traffic of a network across the systems on a server. The role of a load balancer is to increase the capacity of traffic on a network.  
 #### Modem
+A modem is a device that allows a network to transmit data through telephone or cable lines. A modem does this by translating the digital configuration of data, into a analog waves so they can be carried by telephone or cable lines.
 #### Packet Shaper
+A packet shaper is a device that is placed on the gateway of a network, that processes all incoming and outgoing data from the network. The packet shaper prioritizes what data is sent and recieved based on the protocols of the network.
 #### VPN Concentrator
+A VPN concentrator is a device that allows a VPN router to be accessed by multiple systems at the same time. It does this by creating and managing VPN tunnels to the VPN router, and then assigning each VPN tunnel to a system on the network.
 ### Server Types
 #### Web
+A web server stores information of webpages for a website. When a user tries to access a webpage over the internet a request is sent to the desired web server for that webpage. The webpage then sends over the data that makes up that webpage to the user, when the data has arrived to the user, the user's computer system then recreates the webpage using the data sent and displays the webpage to the user.
 #### File
+A file server stores the data of files for users to access. When the user requests a file from the server, the file is broken down into data packets so it can be sent effeciently through the internet/network. When the user's system recieves the data packets, it uses the packets to recreate the file so it can be viewed by the user.
 #### Database
+A database server stores records on a certain medium. Data for each record stored on this server are broken down into attributes (or fields). For example Amazon's database server would hold information on their products, such as price, stock and name. A database server is used to hold data and/or present data.
 #### Combination
+A combination server is a server that can provide all the purposes of the three previously mentioned servers.
 #### Virtualisation
+A virtualised server is a server that holds a physical server into a number of small devices which are the virtual servers. It does this with the assistance of virtualisation software. Each virtual server will run multiple instances of operating systems to provide services to multiple users at once.
 #### Terminal Services
-
+A terminal is a device on a network (i.e. PCs, servers). A terminal server is a common connection point for terminals on a network can connect to, to provide a path to another network.
 ## The Interdepedence of Workstation Hardware with Networking Software
 ### Networking Software
 #### Client Software
