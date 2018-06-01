@@ -152,12 +152,17 @@ A virtualised server is a server that holds a physical server into a number of s
 A terminal is a device on a network (i.e. PCs, servers). A terminal server is a common connection point for terminals on a network can connect to, to provide a path to another network.
 ## The Interdepedence of Workstation Hardware with Networking Software
 ### Networking Software
+Networking software is used to help administrators of networks deploy and manage a network. 
 #### Client Software
+A client is general term for computer hardware that accesses the services provided by a server. Client software is a peice of software on a client that performs a certain task. For example Google Chrome is a client software that carrys requests to a web server to recieve data of webpages from the web server.
 #### Server Software
-#### Client Operating system
-#### Server Operating System
+Sever software is software that is designed to allow an administrator to use, operate and manage a server. Server software controls a server's hardware such as memory, storage and input/output. The configuration of the server's hardware dictates what purpose the server will serve, such as providing clients with webpages.
+#### Client and Server Operating Systems
+An operating system on a computing system (such as a client or server), is software used to manage software on a computing system. An OS can do this by prioritising the tasks requests made by the systems software to be ran by the systems CPU. An OS also provides a detailed user interface to allow the user to easily manage the systems on a client or server.
 #### Firewall
+A firewall is a system which is designed to prevent unauthorized users from accessing a private network. A firewall can either be software or hardware and prevents external internet users from breaking into a network which is connected to the internet. The firewall decides what data can or can't be passed through it, by setting up rules that data must uphold for it to be passed through so the data can enter the network.
 #### Proxies
+A proxy can be a computer sysetm or a peice of software. The role of a proxy is to act as a link from a clients request to another server. Proxies were invented to add structure to a network.
 ### Differences between network card, wireless, mobile and cabling
 ### The need for permissions in networking
 
