@@ -162,8 +162,9 @@ An operating system on a computing system (such as a client or server), is softw
 #### Firewall
 A firewall is a system which is designed to prevent unauthorized users from accessing a private network. A firewall can either be software or hardware and prevents external internet users from breaking into a network which is connected to the internet. The firewall decides what data can or can't be passed through it, by setting up rules that data must uphold for it to be passed through so the data can enter the network.
 #### Proxies
-A proxy can be a computer sysetm or a peice of software. The role of a proxy is to act as a link from a clients request to another server. Proxies were invented to add structure to a network.
-### Differences between network card, wireless, mobile and cabling
+A proxy can be a computer system or a peice of software. The role of a proxy is to act as a link from a clients request to another server. Proxies were invented to add structure to a network.
+### Differences between network card, wireless and cabling
+A network card is a peice of hardware in a computer systems architecture that allows the computer to connect to a network. The network card is connected to the network through the use of different hardware. One of the connections that can be used is a wireless connection. As the name suggests a wireless connection on a network is connection that requires no wiring and instead works by using a wireless access point to transmit a frequency that the network card can connect to to get on the network. Another connection is a cable connection, this is where a cabling is used to connect the computer system on the network, a common type of network cabling is a ethernet cable.
 ### The need for permissions in networking
 
 ## Design and Implement a Network
